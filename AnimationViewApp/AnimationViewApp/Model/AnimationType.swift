@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum AnimationType: String {
+enum AnimationType: String, CaseIterable {
     case shake
     case pop
     case morph
@@ -36,7 +36,7 @@ enum AnimationType: String {
     case flash
 }
 
-enum Curve: String {
+enum Curve: String, CaseIterable {
     case spring
     case linear
     case easeIn
